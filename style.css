@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.card {
+    width: 30%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.space {
+    margin: 2rem;
+    text-align: center;
+}
+
+.space form {
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 1rem;
+}
+
+input.error {
+    border-color: red;
+}
+
+.hide {
+    display: none;
+}
